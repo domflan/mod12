@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 # ⬇️ Replace this with your deployed API server URL later
-api_url = "https://YOUR-API-SERVER-NAME.azurewebsites.net/predict"
+api_url = "dflanagan-mod12.azurewebsites.net"
 
 @app.route('/')
 def index():
